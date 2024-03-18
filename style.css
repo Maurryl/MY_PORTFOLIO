@@ -45,7 +45,7 @@ html{
     height: 3px;
     justify-content: center;
     align-items: center;
-    color: rgb(119, 233, 90);
+    color: rgb(22, 137, 231);
 }
 #home::before{
     content: "";
@@ -61,8 +61,8 @@ html{
     position:absolute;
 }
 .headings{
-    font-family: 'Courier New';
-    font-size: 2rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
     text-align:center;
     margin: 100px 0px;
 }
@@ -181,7 +181,7 @@ html{
     padding: 12px;
     margin: 15px;
     width: 50%;
-    border:darkblue;
+    border:rgb(236, 9, 180);
     outline: none;
     background-color: rgb(92, 243, 54);
 
@@ -193,6 +193,7 @@ html{
     border:darkblue;
     outline: none;
     background-color: rgb(163, 204, 16);
+    box-shadow:indigo;
 }
 #send{
     padding: 10px;
@@ -204,7 +205,7 @@ html{
 }
 #send:hover{
     cursor: pointer;
-    box-shadow: 10px 10px 30px rgba(126, 230, 7, 0.87) ;
+    box-shadow: 10px 10px 30px rgba(74, 7, 230, 0.87) ;
 }
 footer{
     background-color: black;
